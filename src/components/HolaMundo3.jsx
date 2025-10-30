@@ -12,7 +12,7 @@ const HolaMundo3 = ({ saludo }) => {
   }
 
   return (
-    <section className="container my-5 border border-primary p-2">
+    <section className="container my-5">
       <h1 className="display-6 mb-3">Hello {saludo} {mensaje}👋!</h1>
       <button className="btn btn-primary" onClick={cambiarMensaje}>
         Click Me
